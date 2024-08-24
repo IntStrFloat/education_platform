@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #1c1c1c;
+  --white: #ffff;
+}
+* {
+  font-family: 'Gilroy', sans-serif;
+}
