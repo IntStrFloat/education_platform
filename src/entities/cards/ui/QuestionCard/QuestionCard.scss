@@ -1,0 +1,18 @@
+/* Стили для кастомного скроллбара */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Ширина скроллбара */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Цвет фона трека скроллбара */
+  border-radius: 10px; /* Скругление углов трека */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Цвет ползунка скроллбара */
+  border-radius: 10px; /* Скругление углов ползунка */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Цвет ползунка при наведении */
+}

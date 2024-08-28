@@ -1,17 +1,21 @@
-import { PayloadAction, createSlice } from '@reduxjs/toolkit';
-import { CardInterface } from './types';
+import { PayloadAction, createSlice } from "@reduxjs/toolkit";
+import { CardInterface, Tag } from "./types";
 
 const initialState: CardInterface = {
-  selectedTheme:'Frontend Dev'
+  selectedTheme: "Frontend",
+  filterTag: [],
 };
 
 export const CardsSlice = createSlice({
-  name: 'CardsSlice',
+  name: "CardsSlice",
   initialState,
   reducers: {
-    changeTheme: (state, action: PayloadAction<string>)=>{
-      state.selectedTheme = action.payload
-    }
+    changeTheme: (state, action: PayloadAction<Tag>) => {
+      state.selectedTheme = action.payload;
+    },
+    changeTags: (state, action: PayloadAction<string[]>) => {
+      state.filterTag = action.payload;
+    },
   },
 });
-export const { changeTheme } = CardsSlice.actions;
+export const { changeTheme, changeTags } = CardsSlice.actions;

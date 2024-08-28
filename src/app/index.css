@@ -7,5 +7,134 @@
   --white: #ffff;
 }
 * {
-  font-family: 'Gilroy', sans-serif;
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-Black.eot");
+    src: url("../../../public/fonts/Gilroy-Black.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-Black.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-Black.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Gilroy Black Italic */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-BlackItalic.eot");
+    src: url("../../../public/fonts/Gilroy-BlackItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-BlackItalic.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-BlackItalic.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /* Gilroy Bold */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-Bold.eot");
+    src: url("../../../public/fonts/Gilroy-Bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-Bold.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-Bold.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  /* Gilroy Bold Italic */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-BoldItalic.eot");
+    src: url("../../../public/fonts/Gilroy-BoldItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-BoldItalic.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-BoldItalic.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /* Gilroy ExtraBold */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-Extrabold.eot");
+    src: url("../../../public/fonts/Gilroy-Extrabold.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-Extrabold.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-Extrabold.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-Extrabold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  /* Gilroy ExtraBold Italic */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-ExtraboldItalic.eot");
+    src: url("../../../public/fonts/Gilroy-ExtraboldItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-ExtraboldItalic.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-ExtraboldItalic.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-ExtraboldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  /* Gilroy Heavy */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-Heavy.eot");
+    src: url("../../../public/fonts/Gilroy-Heavy.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-Heavy.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-Heavy.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-Heavy.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* Gilroy Heavy Italic */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-HeavyItalic.eot");
+    src: url("../../../public/fonts/Gilroy-HeavyItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-HeavyItalic.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-HeavyItalic.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-HeavyItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  /* Gilroy Light */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-Light.eot");
+    src: url("../../../public/fonts/Gilroy-Light.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-Light.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-Light.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* Gilroy Light Italic */
+  @font-face {
+    font-family: "Gilroy";
+    src: url("../../../public/fonts/Gilroy-LightItalic.eot");
+    src: url("../../../public/fonts/Gilroy-LightItalic.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../../public/fonts/Gilroy-LightItalic.woff2") format("woff2"),
+      url("../../../public/fonts/Gilroy-LightItalic.woff") format("woff"),
+      url("../../../public/fonts/Gilroy-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  font-family: "Gilroy", sans-serif;
 }
